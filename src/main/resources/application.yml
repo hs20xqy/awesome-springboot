@@ -4,3 +4,8 @@ server:
   address: 127.0.0.1
   sessionTimeout: 30
   contextPath: /
+
+# mybatis config
+mybatis:
+  config-location: classpath:mybatisConfig.xml
+  mapper-locations: classpath:mappers/mysql/*Mapper.xml
